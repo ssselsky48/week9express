@@ -1,0 +1,34 @@
+{
+  "name": "week7Express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csslint": "^1.0.5",
+    "desandro-matches-selector": "^2.0.2",
+    "ev-emitter": "^2.1.0",
+    "express": "^4.17.1",
+    "file": "^0.2.2",
+    "fizzy-ui-utils": "^3.0.0",
+    "get-size": "^2.0.3",
+    "jquery": "^3.6.0",
+    "jshint": "^2.12.0",
+    "mongoose": "^5.12.4",
+    "osmosis": "^1.1.10",
+    "outlayer": "^2.1.1",
+    "postcss-calc": "^8.0.0",
+    "postcss-css-variables": "^0.17.0",
+    "postcss-discard-duplicates": "^5.0.0",
+    "postcss-focus-within": "^4.0.0",
+    "postcss-nested": "^5.0.5",
+    "pug": "^3.0.2",
+    "puppeteer": "^9.1.1",
+    "system": "^2.0.1",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "zombie": "^6.1.4"
+  }
+}
