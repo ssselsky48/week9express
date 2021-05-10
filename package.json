@@ -19,7 +19,6 @@
     "jquery": "^3.6.0",
     "jshint": "^2.12.0",
     "mongoose": "^5.12.4",
-    "osmosis": "^1.1.10",
     "outlayer": "^2.1.1",
     "postcss-calc": "^8.0.0",
     "postcss-css-variables": "^0.17.0",
@@ -32,6 +31,6 @@
     "underscore": "^1.13.1"
   },
   "devDependencies": {
-    "zombie": "^6.1.4"
+    "puppeteer": "^9.1.1"
   }
 }
