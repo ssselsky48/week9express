@@ -58,7 +58,7 @@ export default (express, bodyParser, createReadStream, writeFileSync, crypto, ht
 
     .get('/test/', urlencodedParser, async (req, res) => {
 
-        const browser = await puppeteer.launch({args: ['--no-sandbox']});
+        const browser = await puppeteer.launch({args: ['--no-sandbox', '--no-zygote']});
         const page = await browser.newPage();
         await page.goto(req.query.URL);
         await page.click('#bt');
